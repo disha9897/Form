@@ -8,7 +8,6 @@ public class Form  extends JFrame implements ActionListener
 {
 	private Container c;
 	private JLabel  title;
-	//@Required
 	private JLabel name;
 	private JTextField tname;
 	private JLabel mno;
@@ -29,10 +28,13 @@ public class Form  extends JFrame implements ActionListener
 	private JTextArea tout;
 	private JLabel res;
 	private JTextArea resadd;
+	
 	private String dates[]= {"1","2","3","4","5","6","7","8","9","10","11","12","13",
 			                 "14","15","16","17","18","19","20","21","22","23","24",
 			                 "25","26","27","28","29","30","31"};
+					 
 	private String months[]= {"Jan","Feb","Mar","Apr","May","Jun","July","Aug","Sep","Oct","Nov","Dec"};
+	
 	private String years[]= {"2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010",
 			                 "2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"};
 		
