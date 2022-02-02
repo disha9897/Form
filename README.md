@@ -1,9 +1,13 @@
 // Normal user Regisration form
 
 package javaform;
+
 import javax.swing.*;
+
 import java.awt.*;
+
 import java.awt.event.*;
+
 public class Form  extends JFrame implements ActionListener
 {
 	private Container c;
