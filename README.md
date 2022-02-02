@@ -10,10 +10,10 @@ import java.awt.event.*;
 
 public class Form  extends JFrame implements ActionListener
 {
-	private Container c;
-	private JLabel  title;
-	private JLabel name;
-	private JTextField tname;
+	private Container c; 
+	private JLabel  title; 
+	private JLabel name;   
+	private JTextField tname; 
 	private JLabel mno;
 	private JTextField tmno;
 	private JLabel gender;
